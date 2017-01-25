@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "bower-asset/smartwizard": "*"
+        "bower-asset/smartwizard": ">=4"
     },
     "autoload": {
         "psr-4": {
