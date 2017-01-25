@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class SmartWizardAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/smartwizard';
+    public $sourcePath = '@vendor/techlab/smartwizard';
     
     public $css = [
         'css/smart_wizard.css',
