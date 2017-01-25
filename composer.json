@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "techlab/SmartWizard": "*"
+        "bower-asset/smartwizard": "*"
     },
     "autoload": {
         "psr-4": {
