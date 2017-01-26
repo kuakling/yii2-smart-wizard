@@ -24,7 +24,7 @@ echo Step::widget([
         ],
     ],
 ]);
-
+~~~
 
 ## Form Validate
 ~~~ php
@@ -128,3 +128,4 @@ echo Step::widget([
 ?>
 
 <?php ActiveForm::end(); ?>
+~~~
