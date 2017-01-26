@@ -1,8 +1,9 @@
 # yii2-smart-wizard
 
 ## Basic
-~~~
+~~~ php
 <?php
+use kuakling\smartwizard\Step;
 
 echo Step::widget([
     'widgetOptions' => [
