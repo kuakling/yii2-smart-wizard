@@ -90,6 +90,8 @@ $('#{$wizardId}').on('leaveStep', function(e, anchorObject, stepNumber, stepDire
 JS;
 
 $this->registerJs(implode("\n", $jsPersonWizard));
+
+
 echo Step::widget([
     'id' => $wizardId,
     'isFormStep' => true,
@@ -104,24 +106,19 @@ echo Step::widget([
     ],
     'items' => [
         1 => [
-            'icon' => $this->context->formSteps[1]['icon'],
-            'label' => 'Step - 1 <br /><small>'.$this->context->formSteps[1]['desc'].'</small>',
+            'icon' => 'fa fa-info',
+            'label' => 'Step - 1 <br /><small>Information</small>',
             'content' => $this->render('_step-1', ['models' => $models, 'form' => $form])
         ],
         2 => [
-            'icon' => $this->context->formSteps[2]['icon'],
-            'label' => 'Step - 2 <br /><small>'.$this->context->formSteps[2]['desc'].'</small>',
+            'icon' => 'fa fa-camera',
+            'label' => 'Step - 2 <br /><small>Photo</small>',
             'content' => $this->render('_step-2', ['models' => $models, 'form' => $form])
         ],
         3 => [
-            'icon' => $this->context->formSteps[3]['icon'],
-            'label' => 'Step - 3 <br /><small>'.$this->context->formSteps[3]['desc'].'</small>',
+            'icon' => 'fa fa-address-card',
+            'label' => 'Step - 3 <br /><small>Address</small>',
             'content' => $this->render('_step-3', ['models' => $models, 'form' => $form])
-        ],
-        4 => [
-            'icon' => $this->context->formSteps[4]['icon'],
-            'label' => 'Step - 4 <br /><small>'.$this->context->formSteps[4]['desc'].'</small>',
-            'content' => $this->render('_step-4', ['models' => $models, 'form' => $form])
         ],
     ],
 ]);
