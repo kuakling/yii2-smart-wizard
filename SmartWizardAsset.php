@@ -12,7 +12,7 @@ class SmartWizardAsset extends AssetBundle
     public $sourcePath = '@vendor/techlab/smartwizard';
     
     public $css = [
-        'css/smart_wizard.css',
+        // 'css/smart_wizard.css',
     ];
     
     public $js = [
